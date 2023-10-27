@@ -1,0 +1,74 @@
+[data-md-color-scheme="grmlabs"] {
+  --color-dark: #041b15;
+  --color-light: #eff1f3;
+  --color-accent1: #004fff;
+  --color-accent2: #007fff;
+
+  /* Primary color shades */
+  --md-primary-fg-color:  var(--color-dark); /* Navbar */
+  --md-primary-bg-color:  var(--color-light); /* Texto navbar */
+
+  /* Accent color shades */
+  --md-typeset-a-color:   var(--color-accent1); /* Texto */
+  --md-accent-fg-color: var(--color-accent2); /* Enlaces al clickarlos */
+
+  /* Default color shades */
+  --md-default-fg-color:               hsla(0, 0%, 0%, 0.87); /* P */
+  --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54); /* H1 */
+  --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.32); /* Scrollbar */
+  --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07); /* Submenu navbar */
+  --md-default-bg-color:               hsla(0, 0%, 100%, 1); /* Fondo pagina*/
+  --md-default-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+  --md-default-bg-color--lighter:      hsla(0, 0%, 100%, 0.3);
+  --md-default-bg-color--lightest:     hsla(0, 0%, 100%, 0.12);
+
+  /* Code color shades */
+  --md-code-fg-color:                  hsla(200, 18%, 26%, 1); /* Texto codigo */
+  --md-code-bg-color:                  hsla(200, 0%, 96%, 1); /* Fondo codigo*/
+
+  /* Typeset `del` and `ins` color shades */
+  --md-typeset-del-color:              hsla(6, 90%, 60%, 0.15);
+  --md-typeset-ins-color:              hsla(150, 90%, 44%, 0.15);
+
+  /* Typeset `kbd` color shades */
+  --md-typeset-kbd-color:              hsla(0, 0%, 98%, 1);
+  --md-typeset-kbd-accent-color:       hsla(0, 100%, 100%, 1);
+  --md-typeset-kbd-border-color:       hsla(0, 0%, 72%, 1);
+
+  /* Typeset `mark` color shades */
+  --md-typeset-mark-color:             hsla(#{hex2hsl($clr-yellow-a200)}, 0.5);
+
+  /* Typeset `table` color shades */
+  --md-typeset-table-color:            hsla(0, 0%, 0%, 0.12);
+  --md-typeset-table-color--light:     hsla(0, 0%, 0%, 0.035);
+
+  /* Admonition color shades */
+  --md-admonition-fg-color:            var(--md-default-fg-color);
+  --md-admonition-bg-color:            var(--md-default-bg-color);
+
+  /* Warning color shades */
+  --md-warning-fg-color:              hsla(0, 0%, 0%, 0.87);
+  --md-warning-bg-color:              hsla(60, 100%, 80%, 1);
+
+  /* Footer color shades */
+  --md-footer-fg-color:                var(--color-light);
+  --md-footer-fg-color--light:         var(--color-light);
+  --md-footer-fg-color--lighter:       var(--color-light);
+  --md-footer-bg-color:                var(--color-dark);
+  --md-footer-bg-color--dark:          var(--color-dark);
+
+  /* Shadow depth 1 */
+  --md-shadow-z1:
+    0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.05),
+    0 0              #{px2rem(1px)}  hsla(0, 0%, 0%, 0.1);
+
+  /* Shadow depth 2 */
+  --md-shadow-z2:
+    0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.1),
+    0 0              #{px2rem(1px)}  hsla(0, 0%, 0%, 0.25);
+
+  /* Shadow depth 3 */
+  --md-shadow-z3:
+    0 #{px2rem(4px)} #{px2rem(10px)} hsla(0, 0%, 0%, 0.2),
+    0 0              #{px2rem(1px)}  hsla(0, 0%, 0%, 0.35);
+}
